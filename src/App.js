@@ -13,6 +13,7 @@ import Fetcher from './components/Fetcher';
 import Hooks, {aFunc} from './components/Hooks';
 import ToggleButtons from './components/ToggleButtons';
 import PopcornSales from './components/PopcornSales';
+import SWE432assignment8 from './components/SWE432assignment8'
 
 export const useLinkOpener = () => {
   const windowObjectReferences = useMemo(() => ({}), []);
@@ -58,7 +59,7 @@ export default function App(props) {
     }),
     []
   );
-  
+
   const [, openLink] = useLinkOpener();
   const handleChangeOpenGitHubLink = useCallback(() => {
     openLink(
@@ -90,6 +91,7 @@ export default function App(props) {
           <Tab label="Fetcher" />
           <Tab label="Hooks" />
           <Tab label="Toggle Buttons" />
+          <Tab label="Assignment 8" />
         </Tabs>
       </Box>
       <TabPanel value={currentTab} index={0}>
@@ -104,6 +106,9 @@ export default function App(props) {
       </TabPanel>
       <TabPanel value={currentTab} index={3}>
         <ToggleButtons />
+      </TabPanel>
+      <TabPanel value={currentTab} index={4}>
+        <SWE432assignment8 />
       </TabPanel>
     </Box>
   );
