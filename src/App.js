@@ -102,7 +102,7 @@ export default function App(props) {
         <Fetcher />
       </TabPanel>
       <TabPanel value={currentTab} index={2}>
-        {careful Icarus}
+        
         <Hooks name={aFunc().name} />
       </TabPanel>
       <TabPanel value={currentTab} index={3}>
