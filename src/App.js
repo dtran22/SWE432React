@@ -87,13 +87,14 @@ export default function App(props) {
       </AppBar>
       <Box sx={tabsSX}>
         <Tabs value={currentTab} onChange={handleChangeCurrentTab}>
-          <Tab label="Popcorn Sales" />
-          <Tab label="Fetcher" />
-          <Tab label="Hooks" />
-          <Tab label="Toggle Buttons" />
+          //<Tab label="Popcorn Sales" />
+          //<Tab label="Fetcher" />
+          //<Tab label="Hooks" />
+          //<Tab label="Toggle Buttons" />
           <Tab label="Assignment 8" />
         </Tabs>
       </Box>
+      /**
       <TabPanel value={currentTab} index={0}>
         <PopcornSales />
       </TabPanel>
@@ -101,12 +102,12 @@ export default function App(props) {
         <Fetcher />
       </TabPanel>
       <TabPanel value={currentTab} index={2}>
-        {/*careful Icarus*/}
+        {careful Icarus}
         <Hooks name={aFunc().name} />
       </TabPanel>
       <TabPanel value={currentTab} index={3}>
         <ToggleButtons />
-      </TabPanel>
+      </TabPanel>**/
       <TabPanel value={currentTab} index={4}>
         <SWE432assignment8 />
       </TabPanel>
