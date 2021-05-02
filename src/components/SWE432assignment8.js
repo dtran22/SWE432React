@@ -12,7 +12,7 @@ function SWE432assignment8(props) {
   return (
     <div>
       <h2>SWE 432 Assignment 8</h2>
-      <br><p>Enter a list of names with each name following by a comma(,)</p><br>
+      <br>Enter a list of names with each name following by a comma(,)<br>
       <table>
         <tr>
           <td>Names:</td>
